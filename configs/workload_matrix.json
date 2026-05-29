@@ -1,0 +1,23 @@
+{
+  "description": "Default frame-selection variants for 3D Gaussian Splatting reconstruction experiments.",
+  "frame_extraction": {
+    "fps": 0,
+    "max_frames": 0,
+    "resize_width": 640,
+    "compare_against": "previous_kept_frame"
+  },
+  "variants": [
+    {"name": "keep_all", "metric": "keep_all", "threshold": null},
+    {"name": "ncc_0_99", "metric": "ncc", "threshold": 0.99},
+    {"name": "ncc_0_95", "metric": "ncc", "threshold": 0.95},
+    {"name": "ncc_0_90", "metric": "ncc", "threshold": 0.90},
+    {"name": "ncc_0_75", "metric": "ncc", "threshold": 0.75},
+    {"name": "ssim_0_99", "metric": "ssim", "threshold": 0.99},
+    {"name": "ssim_0_95", "metric": "ssim", "threshold": 0.95},
+    {"name": "ssim_0_90", "metric": "ssim", "threshold": 0.90},
+    {"name": "mse_0_001", "metric": "mse", "threshold": 0.001},
+    {"name": "mse_0_005", "metric": "mse", "threshold": 0.005},
+    {"name": "mse_0_010", "metric": "mse", "threshold": 0.010}
+  ],
+  "metrics": ["psnr", "ssim", "lpips", "kept_frames", "registered_images", "train_seconds", "export_bytes"]
+}
