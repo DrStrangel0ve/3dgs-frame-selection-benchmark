@@ -1,0 +1,7 @@
+{
+  "scene": "open_mid_baios_statue",
+  "variant": "ncc_0_75",
+  "stage": "eval",
+  "status": "failed",
+  "message": "results/logs/open_mid_baios_statue_ncc_0_75_eval.log"
+}

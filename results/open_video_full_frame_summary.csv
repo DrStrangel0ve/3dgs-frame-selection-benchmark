@@ -1,0 +1,16 @@
+scene,variant,threshold,raw_frames,kept_frames,dropped_frames,kept_fraction,ncc_mean,ncc_median,ncc_p95,ncc_min,ncc_max,processed_frames,status,stage,psnr,ssim,lpips,metrics_path
+open_close_scanparayzo,keep_all,,976,976,0,1,0.996379,0.999995,1,0.917378,1,,missing_metrics,,,,,
+open_close_scanparayzo,ncc_0_99,0.99,976,170,806,0.17418,0.993294,0.996697,0.99999,0.917378,0.999999,2,failed,eval,,,,
+open_close_scanparayzo,ncc_0_95,0.95,976,67,909,0.0686475,0.972364,0.967895,0.99999,0.904456,0.999995,2,failed,eval,,,,
+open_close_scanparayzo,ncc_0_90,0.9,976,31,945,0.0317623,0.948234,0.929164,0.99999,0.877117,1,30,ok,done,18.3222,0.900717,0.205718,results/metrics/open_close_scanparayzo_ncc_0_90.json
+open_close_scanparayzo,ncc_0_75,0.75,976,3,973,0.00307377,0.853899,0.82489,0.99999,0.730926,0.999995,,skipped,prepare,,,,
+open_mid_baios_statue,keep_all,,242,242,0,1,0.940505,0.954785,1,0.727679,1,5,failed,eval,,,,
+open_mid_baios_statue,ncc_0_99,0.99,242,173,69,0.714876,0.939691,0.954785,1,0.727679,1,4,failed,eval,,,,
+open_mid_baios_statue,ncc_0_95,0.95,242,135,107,0.557851,0.931871,0.942481,1,0.727679,1,134,ok,done,20.7819,0.622283,0.70493,results/metrics/open_mid_baios_statue_ncc_0_95.json
+open_mid_baios_statue,ncc_0_90,0.9,242,97,145,0.400826,0.910484,0.918462,1,0.727679,1,93,ok,done,20.6879,0.596844,0.710817,results/metrics/open_mid_baios_statue_ncc_0_90.json
+open_mid_baios_statue,ncc_0_75,0.75,242,47,195,0.194215,0.825538,0.819993,0.966289,0.581368,1,2,failed,eval,,,,
+open_wide_gimbal_fence,keep_all,,832,832,0,1,0.986062,0.989447,0.999803,0.907645,0.999903,,missing_metrics,,,,,
+open_wide_gimbal_fence,ncc_0_99,0.99,832,562,270,0.675481,0.982631,0.985502,0.998139,0.907645,0.999857,5,failed,eval,,,,
+open_wide_gimbal_fence,ncc_0_95,0.95,832,248,584,0.298077,0.961673,0.966189,0.994824,0.827747,0.999866,2,failed,eval,,,,
+open_wide_gimbal_fence,ncc_0_90,0.9,832,135,697,0.16226,0.936726,0.937267,0.990904,0.807185,0.999759,4,failed,eval,,,,
+open_wide_gimbal_fence,ncc_0_75,0.75,832,33,799,0.0396635,0.845066,0.832204,0.974637,0.704813,0.994095,3,failed,eval,,,,

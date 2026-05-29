@@ -1,0 +1,17 @@
+{
+  "experiment_name": "open_close_scanparayzo_ncc_0_90",
+  "method_name": "splatfacto",
+  "checkpoint": "outputs/open_close_scanparayzo_ncc_0_90/splatfacto/20260528_open_close_filtered150/nerfstudio_models/step-000000149.ckpt",
+  "results": {
+    "psnr": 18.32222557067871,
+    "psnr_std": 1.114621639251709,
+    "ssim": 0.9007171988487244,
+    "ssim_std": 0.011625370010733604,
+    "lpips": 0.2057180255651474,
+    "lpips_std": 0.014814442954957485,
+    "num_rays_per_sec": 2093433.875,
+    "num_rays_per_sec_std": 1784134.5,
+    "fps": 9.125653266906738,
+    "fps_std": 7.777361869812012
+  }
+}

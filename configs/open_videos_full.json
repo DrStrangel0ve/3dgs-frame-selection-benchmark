@@ -1,0 +1,38 @@
+{
+  "videos": [
+    {
+      "scene_id": "open_close_scanparayzo",
+      "label": "Scanparayzo",
+      "role": "Open-license close/object-style source video",
+      "source_type": "video",
+      "local_path": "videos/open_close_scanparayzo.webm",
+      "source_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Scanparayzo.webm",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Scanparayzo.webm",
+      "license": "CC0 1.0 Universal Public Domain Dedication",
+      "notes": "Wikimedia Commons source described as '3D SCAN - Parayzo'."
+    },
+    {
+      "scene_id": "open_mid_baios_statue",
+      "label": "Baios statue",
+      "role": "Open-license mid-scale statue source video",
+      "source_type": "video",
+      "local_path": "videos/open_mid_baios_statue.webm",
+      "source_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Baios_statue_-_Ninfeo_punta_Epitaffio.webm",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Baios_statue_-_Ninfeo_punta_Epitaffio.webm",
+      "license": "CC0 1.0 Universal Public Domain Dedication",
+      "notes": "Underwater statue video from the underwater archaeological park at Baia, Italy."
+    },
+    {
+      "scene_id": "open_wide_gimbal_fence",
+      "label": "Gimbal shot walking along fence line",
+      "role": "Open-license moving path source video",
+      "source_type": "video",
+      "local_path": "videos/wide_path_gimbal_fence.webm",
+      "source_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Gimbal_shot_walking_along_fence_line_(49716812698).webm",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Gimbal_shot_walking_along_fence_line_(49716812698).webm",
+      "license": "Public domain, U.S. Bureau of Land Management work",
+      "notes": "BLM Montana/Dakotas gimbal video with natural camera motion along a fence line."
+    }
+  ]
+}
+

@@ -1,0 +1,7 @@
+{
+  "scene": "open_mid_baios_statue",
+  "variant": "keep_all",
+  "stage": "eval",
+  "status": "failed",
+  "message": "results/logs/open_mid_baios_statue_keep_all_eval.log"
+}

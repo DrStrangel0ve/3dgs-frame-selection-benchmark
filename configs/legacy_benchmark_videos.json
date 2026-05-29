@@ -1,0 +1,36 @@
+{
+  "videos": [
+    {
+      "scene_id": "close_object",
+      "label": "Objectron camera close object",
+      "role": "Close-up object-centric camera motion",
+      "local_path": "videos/close_object_objectron_camera.MOV",
+      "source_url": "https://storage.googleapis.com/objectron/videos/camera/batch-7/24/video.MOV",
+      "source_page": "https://github.com/google-research-datasets/Objectron",
+      "license": "Objectron Computational Use of Data Agreement 1.0",
+      "notes": "Objectron describes its videos as object-centric clips where the camera moves around and above the object from different views. This camera sample was chosen over the first cup sample because it gives COLMAP more textured features."
+    },
+    {
+      "scene_id": "mid_scene",
+      "label": "COLMAP Gerrard Hall",
+      "role": "Middle-size architectural capture",
+      "source_type": "images",
+      "image_dir": "source_captures/colmap/gerrard-hall/images",
+      "source_url": "https://github.com/colmap/colmap/releases/download/3.11.1/gerrard-hall.zip",
+      "source_page": "https://colmap.readthedocs.io/en/latest/datasets.html",
+      "license": "COLMAP public sample dataset",
+      "notes": "Official COLMAP dataset with 100 high-resolution images. Used after the random Ames video only matched two COLMAP poses."
+    },
+    {
+      "scene_id": "wide_path",
+      "label": "COLMAP South Building",
+      "role": "Wide moving-path architectural capture",
+      "source_type": "images",
+      "image_dir": "source_captures/colmap/south-building/images",
+      "source_url": "https://github.com/colmap/colmap/releases/download/3.11.1/south-building.zip",
+      "source_page": "https://colmap.readthedocs.io/en/latest/datasets.html",
+      "license": "COLMAP public sample dataset",
+      "notes": "Official COLMAP dataset with 128 images of a larger camera path. Used after the random fence-line video only matched a few COLMAP poses."
+    }
+  ]
+}

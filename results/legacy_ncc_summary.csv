@@ -1,0 +1,16 @@
+scene,variant,threshold,raw_frames,kept_frames,dropped_frames,kept_fraction,ncc_mean,ncc_median,ncc_p95,ncc_min,ncc_max,processed_frames,status,stage,psnr,ssim,lpips,metrics_path
+close_object,keep_all,,40,40,0,1,0.880314,0.889412,0.946292,0.749746,0.95218,39,ok,done,22.437,0.817038,0.366185,results/metrics/close_object_keep_all.json
+close_object,ncc_0_99,0.99,40,40,0,1,0.880314,0.889412,0.946292,0.749746,0.95218,40,ok,done,21.5326,0.815977,0.364732,results/metrics/close_object_ncc_0_99.json
+close_object,ncc_0_95,0.95,40,39,1,0.975,0.880314,0.889412,0.946292,0.749746,0.95218,39,ok,done,22.5049,0.825857,0.348862,results/metrics/close_object_ncc_0_95.json
+close_object,ncc_0_90,0.9,40,31,9,0.775,0.870134,0.888333,0.934888,0.73443,0.949443,31,ok,done,21.8894,0.816847,0.380831,results/metrics/close_object_ncc_0_90.json
+close_object,ncc_0_75,0.75,40,13,27,0.325,0.792955,0.77304,0.92332,0.637002,0.949443,13,ok,done,17.3541,0.761069,0.563388,results/metrics/close_object_ncc_0_75.json
+mid_scene,keep_all,,80,80,0,1,0.60361,0.659117,0.875316,0.0145766,0.909119,80,ok,done,15.3233,0.453026,0.799887,results/metrics/mid_scene_keep_all.json
+mid_scene,ncc_0_99,0.99,80,80,0,1,0.60361,0.659117,0.875316,0.0145766,0.909119,79,ok,done,15.4227,0.461894,0.799049,results/metrics/mid_scene_ncc_0_99.json
+mid_scene,ncc_0_95,0.95,80,80,0,1,0.60361,0.659117,0.875316,0.0145766,0.909119,80,ok,done,15.527,0.456805,0.793742,results/metrics/mid_scene_ncc_0_95.json
+mid_scene,ncc_0_90,0.9,80,78,2,0.975,0.602696,0.659117,0.875316,0.0145766,0.909119,71,ok,done,15.5272,0.488426,0.765093,results/metrics/mid_scene_ncc_0_90.json
+mid_scene,ncc_0_75,0.75,80,66,14,0.825,0.592992,0.659117,0.821923,0.0145766,0.909119,66,ok,done,15.1902,0.450555,0.825265,results/metrics/mid_scene_ncc_0_75.json
+wide_path,keep_all,,80,80,0,1,0.605075,0.69284,0.836329,-0.139463,0.877189,77,ok,done,16.1142,0.440517,0.823413,results/metrics/wide_path_keep_all.json
+wide_path,ncc_0_99,0.99,80,80,0,1,0.605075,0.69284,0.836329,-0.139463,0.877189,78,ok,done,16.7063,0.455752,0.80501,results/metrics/wide_path_ncc_0_99.json
+wide_path,ncc_0_95,0.95,80,80,0,1,0.605075,0.69284,0.836329,-0.139463,0.877189,77,ok,done,17.5002,0.445072,0.799778,results/metrics/wide_path_ncc_0_95.json
+wide_path,ncc_0_90,0.9,80,80,0,1,0.605075,0.69284,0.836329,-0.139463,0.877189,79,ok,done,17.3056,0.460005,0.788702,results/metrics/wide_path_ncc_0_90.json
+wide_path,ncc_0_75,0.75,80,61,19,0.7625,0.586412,0.641626,0.814154,-0.139463,0.877189,27,ok,done,18.45,0.430012,0.800662,results/metrics/wide_path_ncc_0_75.json

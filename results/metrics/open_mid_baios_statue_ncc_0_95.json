@@ -1,0 +1,17 @@
+{
+  "experiment_name": "open_mid_baios_statue_ncc_0_95",
+  "method_name": "splatfacto",
+  "checkpoint": "outputs/open_mid_baios_statue_ncc_0_95/splatfacto/20260528_open_mid_full150/nerfstudio_models/step-000000149.ckpt",
+  "results": {
+    "psnr": 20.781904220581055,
+    "psnr_std": 3.483875274658203,
+    "ssim": 0.6222829222679138,
+    "ssim_std": 0.11788730323314667,
+    "lpips": 0.7049300670623779,
+    "lpips_std": 0.03651639446616173,
+    "num_rays_per_sec": 8102243.5,
+    "num_rays_per_sec_std": 4620439.5,
+    "fps": 35.319129943847656,
+    "fps_std": 20.141321182250977
+  }
+}
